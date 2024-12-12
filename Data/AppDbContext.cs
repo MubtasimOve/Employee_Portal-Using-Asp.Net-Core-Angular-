@@ -11,5 +11,10 @@ namespace EmployeePortal.Data
         }
 
         public DbSet <Employee> Employees { get; set; }
+
+        internal async Task SaveChangesAysnc()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
