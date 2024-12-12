@@ -21,7 +21,7 @@ namespace EmployeePortal.Repository
         public async Task SaveEmployee(Employee emp)
         {
             await db.Employees.AddAsync(emp);
-            await db.SaveChangesAysnc();
+            await db.SaveChangesAsync();
         }
     }
 }
